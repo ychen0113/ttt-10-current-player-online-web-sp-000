@@ -3,8 +3,8 @@ def turn_count(board)
   board.each do |i| 
 if i != " "
   turn += 1
+  return turn
 end
-return turn
 end
 
 def current_player(board)
