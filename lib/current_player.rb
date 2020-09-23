@@ -6,6 +6,7 @@ if i != " "
   return turn
 end
 end
+end 
 
 def current_player(board)
   turn_count(board) % 2 == 1 ? player = "O" : player = "X"
